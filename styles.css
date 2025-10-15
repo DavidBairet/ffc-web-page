@@ -48,9 +48,12 @@ body{
 /* Header */
 .site-header{
   position: sticky; top:0; z-index:10;
+  z-index: 10;
   background: linear-gradient(90deg, #ff3d7f, #ffb300, #5b6cff);
-  color:#fff;
-  border:0;
+  color: #fff;
+  border: 0;
+  padding: 50px 0;                 
+  overflow: hidden;
 }
 .header__content{
   display:flex; align-items:center; justify-content:space-between;
