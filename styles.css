@@ -162,17 +162,11 @@ body{
 .speaker-card__role{ margin:0 0 6px; color:#333; }
 .speaker-card__bio{ margin:0; }
 
-/* CTA*/
-.cta{
-  background: linear-gradient(180deg, rgba(255,179,207,.45), rgba(215,236,255,.45));
-  border: 0;
+
+p{
+  max-width: 600px;
+  margin: 0 auto;
 }
-.cta__wrap{
-  text-align:center;
-  display:grid; gap: 10px; justify-items:center;
-}
-.cta .btn--primary{ background: var(--accent); }
-.cta .btn--primary:hover{ background:#ff5a97; }
 
 /*Footer*/
 .site-footer{
