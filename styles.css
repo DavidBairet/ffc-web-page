@@ -1,4 +1,4 @@
-/*Variables & Reset*/
+/*Variables*/
 :root{
   
   --bg1: #ffeff7;         
@@ -30,7 +30,7 @@ body{
     linear-gradient(135deg, var(--bg1), var(--bg2) 45%, var(--bg3));
 }
 
-/* Utils */
+
 .container{ width:min(1120px, 100% - 2*var(--space)); margin-inline:auto; }
 .section{ padding: clamp(32px, 6vw, 72px) 0; }
 .section-title{
@@ -196,3 +196,22 @@ p{
 @media (min-width: 1024px){
   .header__content{ padding: 18px 0; }
 }
+/*Carte Google Maps en bas de page*/
+.map-footer {
+  width: 100%;
+  background: linear-gradient(90deg, #ff3d7f22, #ffb30022, #5b6cff22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+}
+
+.map-footer iframe {
+  width: 320px;     
+  height: 180px;    
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
